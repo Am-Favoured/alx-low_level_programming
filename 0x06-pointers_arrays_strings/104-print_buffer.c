@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- *  print_buffer - prints buffer
- *  @b: buffer
- *  @size: size
- *  Return: void
+ * print_buffer - prints buffer
+ * @b: buffer
+ * @size: size
+ * Return: void
  */
 
 void print_buffer(char *b, int size)
@@ -41,7 +41,7 @@ void print_buffer(char *b, int size)
 			{
 				c = '.';
 			}
-			printf("%c", c)
+			printf("%c", c);
 		}
 		printf("\n");
 		o += 10;
